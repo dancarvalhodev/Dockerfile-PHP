@@ -1,13 +1,15 @@
 # Dockerfile for Docker Hub Repository
 [Docker Hub Link](https://hub.docker.com/repository/docker/dancarvalhodev/php)
 
-You can choose your PHP version from branches following the table below
+You can choose your PHP version following the table below.
 
 | Branch | PHP |
 |--------|-----|
+| 7.4    | 7.4 |
 | 8.0    | 8.0 |
 | 8.1    | 8.1 |
 | 8.2    | 8.2 |
+| 8.3    | 8.3 |
 
 
 ## Enabled Extensions
@@ -27,4 +29,5 @@ You can choose your PHP version from branches following the table below
 14. Xdebug
 
 ## Tips
-Composer is installed by default
+- Composer is installed by default.
+- PHP 8.3 uses Debian Bookworm as base OS.
